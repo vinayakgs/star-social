@@ -24,9 +24,9 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 SECRET_KEY = 'o!spvr11*=5*)nr45jbep213!06h0(56n(qz(vr!mb@=4@oi=$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['djbloggingapp.herokuapp.com']
 
 
 # Application definition
